@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="DNI" />
+
+<EditText
+    android:id="@+id/editText2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nom" />
+
+<Button
+    android:id="@+id/buttonInsert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Insertar" />
+
+<Button
+    android:id="@+id/buttonList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Llistar" />
+
+<Button
+    android:id="@+id/buttonUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Modificar" />
+
+<Button
+    android:id="@+id/buttonDeleteFromList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Esborrar fila seleccionada" />
+
+
+<EditText
+    android:id="@+id/editText3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Id per esborrar." />
+
+<Button
+    android:id="@+id/buttonDeleteById"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Esborrar fila amb l'id indicat" />
+
+<ListView
+    android:id="@+id/listView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>
